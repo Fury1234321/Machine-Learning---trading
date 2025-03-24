@@ -1,0 +1,1607 @@
+2025-03-24 03:49:15,578 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:49:15,588 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:49:19,619 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:49:40,259 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:49:40,268 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:49:44,219 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:49:44,335 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:49:44,855 - root - ERROR - Error generating mfi with timeperiod=14: MFI() takes at least 4 positional arguments (1 given)
+2025-03-24 03:49:44,855 - root - ERROR - Error generating cci with timeperiod=14: CCI() takes at least 3 positional arguments (1 given)
+2025-03-24 03:49:44,855 - root - ERROR - Error generating cci with timeperiod=20: CCI() takes at least 3 positional arguments (1 given)
+2025-03-24 03:51:42,047 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:51:42,053 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:51:46,099 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:51:46,249 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:52:15,550 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:52:15,556 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:52:19,392 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:52:19,510 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:52:47,208 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:52:47,214 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:52:51,114 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:52:51,236 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:53:34,774 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:53:34,781 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:53:38,687 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:53:38,816 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:54:18,379 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:54:18,386 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:54:22,319 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:54:22,441 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:55:49,750 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:55:49,755 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:55:53,676 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:55:53,801 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:55:54,345 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:55:54,345 - root - INFO - Training a new random_forest model...
+2025-03-24 03:55:54,346 - root - INFO - Training random_forest model...
+2025-03-24 03:55:54,346 - root - INFO - Selecting features for model training...
+2025-03-24 03:55:54,346 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:55:54,346 - root - INFO - Selected 62 features
+2025-03-24 03:55:54,348 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:55:54,348 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:55:54,349 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:55:54,350 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:55:54,350 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:55:54,350 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:55:54,350 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:55:54,350 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:55:54,351 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:55:54,351 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:55:54,352 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:55:54,353 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:55:54,355 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:55:54,356 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:55:54,357 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:55:54,359 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 674, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:55:54,365 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:55:54,366 - root - INFO - Predicted 1 future candles
+2025-03-24 03:55:54,568 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:55:54,569 - root - INFO - Training a new random_forest model...
+2025-03-24 03:55:54,569 - root - INFO - Training random_forest model...
+2025-03-24 03:55:54,569 - root - INFO - Selecting features for model training...
+2025-03-24 03:55:54,569 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:55:54,569 - root - INFO - Selected 62 features
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:55:54,572 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:55:54,573 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:55:54,574 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:55:54,574 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:55:54,574 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:55:54,574 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:55:54,574 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:55:54,575 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:55:54,576 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:55:54,576 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:55:54,577 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:55:54,579 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 674, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:55:54,580 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:55:54,581 - root - INFO - Predicted 1 future candles
+2025-03-24 03:55:54,782 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:55:54,782 - root - INFO - Training a new random_forest model...
+2025-03-24 03:55:54,782 - root - INFO - Training random_forest model...
+2025-03-24 03:55:54,782 - root - INFO - Selecting features for model training...
+2025-03-24 03:55:54,782 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:55:54,782 - root - INFO - Selected 62 features
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:55:54,785 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:55:54,786 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:55:54,786 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:55:54,786 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:55:54,787 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:55:54,789 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:55:54,789 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:55:54,790 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:55:54,791 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 674, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:55:54,792 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:55:54,792 - root - INFO - Predicted 1 future candles
+2025-03-24 03:55:54,998 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:55:54,998 - root - INFO - Training a new random_forest model...
+2025-03-24 03:55:54,998 - root - INFO - Training random_forest model...
+2025-03-24 03:55:54,998 - root - INFO - Selecting features for model training...
+2025-03-24 03:55:54,998 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:55:54,998 - root - INFO - Selected 62 features
+2025-03-24 03:55:55,000 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:55:55,001 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:55:55,002 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:55:55,002 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:55:55,002 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:55:55,003 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:55:55,004 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:55:55,004 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:55:55,005 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:55:55,007 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 674, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:55:55,009 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:55:55,009 - root - INFO - Predicted 1 future candles
+2025-03-24 03:55:55,214 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:55:55,214 - root - INFO - Training a new random_forest model...
+2025-03-24 03:55:55,214 - root - INFO - Training random_forest model...
+2025-03-24 03:55:55,214 - root - INFO - Selecting features for model training...
+2025-03-24 03:55:55,215 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:55:55,215 - root - INFO - Selected 62 features
+2025-03-24 03:55:55,217 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:55:55,217 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:55:55,217 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:55:55,217 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:55:55,217 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:55:55,218 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:55:55,219 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:55:55,219 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:55:55,219 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:55:55,220 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:55:55,221 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:55:55,221 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:55:55,222 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:55:55,223 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 674, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:55:55,225 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:55:55,225 - root - INFO - Predicted 1 future candles
+2025-03-24 03:57:50,813 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:57:50,819 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:57:54,819 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:57:54,953 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:57:55,498 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:57:55,498 - root - INFO - Training a new random_forest model...
+2025-03-24 03:57:55,498 - root - INFO - Training random_forest model...
+2025-03-24 03:57:55,498 - root - INFO - Selecting features for model training...
+2025-03-24 03:57:55,498 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:57:55,498 - root - INFO - Selected 62 features
+2025-03-24 03:57:55,500 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:57:55,500 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:57:55,500 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:57:55,500 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:57:55,501 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:57:55,502 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:57:55,502 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:57:55,502 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:57:55,502 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:57:55,502 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:57:55,502 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:57:55,505 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:57:55,505 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:57:55,507 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:57:55,511 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:57:55,515 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:57:55,516 - root - INFO - Predicted 1 future candles
+2025-03-24 03:57:55,721 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:57:55,722 - root - INFO - Training a new random_forest model...
+2025-03-24 03:57:55,722 - root - INFO - Training random_forest model...
+2025-03-24 03:57:55,722 - root - INFO - Selecting features for model training...
+2025-03-24 03:57:55,722 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:57:55,722 - root - INFO - Selected 62 features
+2025-03-24 03:57:55,724 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:57:55,724 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:57:55,724 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:57:55,725 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:57:55,726 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:57:55,726 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:57:55,726 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:57:55,726 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:57:55,730 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:57:55,730 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:57:55,732 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:57:55,734 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:57:55,736 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:57:55,736 - root - INFO - Predicted 1 future candles
+2025-03-24 03:57:55,937 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:57:55,937 - root - INFO - Training a new random_forest model...
+2025-03-24 03:57:55,937 - root - INFO - Training random_forest model...
+2025-03-24 03:57:55,937 - root - INFO - Selecting features for model training...
+2025-03-24 03:57:55,937 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:57:55,937 - root - INFO - Selected 62 features
+2025-03-24 03:57:55,939 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:57:55,939 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:57:55,940 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:57:55,941 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:57:55,941 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:57:55,941 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:57:55,942 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:57:55,942 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:57:55,942 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:57:55,942 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:57:55,946 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:57:55,946 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:57:55,948 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:57:55,951 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:57:55,953 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:57:55,953 - root - INFO - Predicted 1 future candles
+2025-03-24 03:57:56,158 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:57:56,159 - root - INFO - Training a new random_forest model...
+2025-03-24 03:57:56,159 - root - INFO - Training random_forest model...
+2025-03-24 03:57:56,159 - root - INFO - Selecting features for model training...
+2025-03-24 03:57:56,159 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:57:56,159 - root - INFO - Selected 62 features
+2025-03-24 03:57:56,161 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:57:56,162 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:57:56,163 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:57:56,163 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:57:56,163 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:57:56,163 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:57:56,166 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:57:56,166 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:57:56,169 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:57:56,171 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:57:56,172 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:57:56,173 - root - INFO - Predicted 1 future candles
+2025-03-24 03:57:56,374 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:57:56,375 - root - INFO - Training a new random_forest model...
+2025-03-24 03:57:56,375 - root - INFO - Training random_forest model...
+2025-03-24 03:57:56,375 - root - INFO - Selecting features for model training...
+2025-03-24 03:57:56,375 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:57:56,375 - root - INFO - Selected 62 features
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:57:56,377 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:57:56,378 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:57:56,379 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:57:56,379 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:57:56,379 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:57:56,379 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:57:56,379 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:57:56,379 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:57:56,383 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:57:56,383 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:57:56,385 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:57:56,388 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:57:56,390 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:57:56,390 - root - INFO - Predicted 1 future candles
+2025-03-24 03:58:29,266 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:58:29,271 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:58:33,186 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:58:33,301 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:58:33,841 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:58:33,842 - root - INFO - Training a new random_forest model...
+2025-03-24 03:58:33,842 - root - INFO - Training random_forest model...
+2025-03-24 03:58:33,842 - root - INFO - Selecting features for model training...
+2025-03-24 03:58:33,842 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:58:33,842 - root - INFO - Selected 62 features
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:58:33,844 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:58:33,845 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:58:33,846 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:58:33,846 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:58:33,846 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:58:33,846 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:58:33,849 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:58:33,849 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:58:33,851 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:58:33,855 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:58:33,860 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:58:33,861 - root - INFO - Predicted 1 future candles
+2025-03-24 03:58:34,067 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:58:34,067 - root - INFO - Training a new random_forest model...
+2025-03-24 03:58:34,067 - root - INFO - Training random_forest model...
+2025-03-24 03:58:34,067 - root - INFO - Selecting features for model training...
+2025-03-24 03:58:34,067 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:58:34,067 - root - INFO - Selected 62 features
+2025-03-24 03:58:34,069 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:58:34,070 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:58:34,071 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:58:34,071 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:58:34,071 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:58:34,071 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:58:34,074 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:58:34,074 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:58:34,076 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:58:34,079 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:58:34,080 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:58:34,080 - root - INFO - Predicted 1 future candles
+2025-03-24 03:58:34,286 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:58:34,286 - root - INFO - Training a new random_forest model...
+2025-03-24 03:58:34,286 - root - INFO - Training random_forest model...
+2025-03-24 03:58:34,286 - root - INFO - Selecting features for model training...
+2025-03-24 03:58:34,286 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:58:34,286 - root - INFO - Selected 62 features
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:58:34,288 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:58:34,289 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:58:34,289 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:58:34,289 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:58:34,290 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:58:34,292 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:58:34,292 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:58:34,294 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:58:34,297 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:58:34,299 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:58:34,299 - root - INFO - Predicted 1 future candles
+2025-03-24 03:58:34,504 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:58:34,504 - root - INFO - Training a new random_forest model...
+2025-03-24 03:58:34,504 - root - INFO - Training random_forest model...
+2025-03-24 03:58:34,504 - root - INFO - Selecting features for model training...
+2025-03-24 03:58:34,504 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:58:34,504 - root - INFO - Selected 62 features
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:58:34,506 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:58:34,507 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:58:34,508 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:58:34,508 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:58:34,508 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:58:34,508 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:58:34,511 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:58:34,511 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:58:34,513 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:58:34,517 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:58:34,518 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:58:34,518 - root - INFO - Predicted 1 future candles
+2025-03-24 03:58:34,720 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:58:34,720 - root - INFO - Training a new random_forest model...
+2025-03-24 03:58:34,721 - root - INFO - Training random_forest model...
+2025-03-24 03:58:34,721 - root - INFO - Selecting features for model training...
+2025-03-24 03:58:34,721 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:58:34,721 - root - INFO - Selected 62 features
+2025-03-24 03:58:34,723 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:58:34,723 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:58:34,724 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:58:34,724 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:58:34,724 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:58:34,725 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:58:34,725 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:58:34,726 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:58:34,727 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:58:34,728 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:58:34,728 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:58:34,728 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:58:34,728 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:58:34,731 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:58:34,731 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:58:34,733 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:58:34,736 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:58:34,737 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:58:34,737 - root - INFO - Predicted 1 future candles
+2025-03-24 03:59:53,746 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:59:53,752 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 03:59:57,742 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 03:59:57,863 - root - INFO - Using CPU for indicator generation
+2025-03-24 03:59:58,410 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:59:58,410 - root - INFO - Training a new random_forest model...
+2025-03-24 03:59:58,410 - root - INFO - Training random_forest model...
+2025-03-24 03:59:58,410 - root - INFO - Selecting features for model training...
+2025-03-24 03:59:58,410 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:59:58,411 - root - INFO - Selected 62 features
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:59:58,413 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:59:58,414 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:59:58,414 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:59:58,414 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:59:58,414 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:59:58,417 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:59:58,418 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:59:58,420 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:59:58,423 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:59:58,428 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:59:58,429 - root - INFO - Predicted 1 future candles
+2025-03-24 03:59:58,633 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:59:58,633 - root - INFO - Training a new random_forest model...
+2025-03-24 03:59:58,633 - root - INFO - Training random_forest model...
+2025-03-24 03:59:58,633 - root - INFO - Selecting features for model training...
+2025-03-24 03:59:58,634 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:59:58,634 - root - INFO - Selected 62 features
+2025-03-24 03:59:58,636 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:59:58,636 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:59:58,636 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:59:58,637 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:59:58,638 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:59:58,638 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:59:58,638 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:59:58,638 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:59:58,638 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:59:58,638 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:59:58,638 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:59:58,638 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:59:58,642 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:59:58,642 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:59:58,645 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:59:58,647 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:59:58,649 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:59:58,649 - root - INFO - Predicted 1 future candles
+2025-03-24 03:59:58,854 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:59:58,854 - root - INFO - Training a new random_forest model...
+2025-03-24 03:59:58,854 - root - INFO - Training random_forest model...
+2025-03-24 03:59:58,855 - root - INFO - Selecting features for model training...
+2025-03-24 03:59:58,855 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:59:58,855 - root - INFO - Selected 62 features
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:59:58,858 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:59:58,859 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:59:58,859 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:59:58,859 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:59:58,859 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:59:58,863 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:59:58,863 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:59:58,866 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:59:58,869 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:59:58,871 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:59:58,871 - root - INFO - Predicted 1 future candles
+2025-03-24 03:59:59,076 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:59:59,076 - root - INFO - Training a new random_forest model...
+2025-03-24 03:59:59,076 - root - INFO - Training random_forest model...
+2025-03-24 03:59:59,076 - root - INFO - Selecting features for model training...
+2025-03-24 03:59:59,076 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:59:59,076 - root - INFO - Selected 62 features
+2025-03-24 03:59:59,079 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:59:59,079 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:59:59,079 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:59:59,079 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:59:59,079 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:59:59,080 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:59:59,081 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:59:59,081 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:59:59,081 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:59:59,081 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:59:59,085 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:59:59,085 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:59:59,087 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:59:59,091 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:59:59,092 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:59:59,092 - root - INFO - Predicted 1 future candles
+2025-03-24 03:59:59,297 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 03:59:59,298 - root - INFO - Training a new random_forest model...
+2025-03-24 03:59:59,298 - root - INFO - Training random_forest model...
+2025-03-24 03:59:59,298 - root - INFO - Selecting features for model training...
+2025-03-24 03:59:59,298 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 03:59:59,298 - root - INFO - Selected 62 features
+2025-03-24 03:59:59,301 - root - INFO - Added missing standard feature: Close
+2025-03-24 03:59:59,301 - root - INFO - Added missing standard feature: Volume
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: MACD
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 03:59:59,302 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 03:59:59,303 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 03:59:59,304 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 03:59:59,304 - root - INFO - Creating target variable with horizon 1
+2025-03-24 03:59:59,304 - root - INFO - Working with multi-index DataFrame: False
+2025-03-24 03:59:59,307 - root - INFO - Created target variable with 1589 valid data points
+2025-03-24 03:59:59,308 - root - INFO - Training with 82 features: ['close', 'high', 'low', 'open', 'volume']...
+2025-03-24 03:59:59,310 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 03:59:59,313 - root - ERROR - Error training model: Input y contains infinity or a value too large for dtype('float64').
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 661, in train_model
+    model.fit(X_train, y_train)
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 363, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1279, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1289, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/lib/python3.12/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains infinity or a value too large for dtype('float64').
+2025-03-24 03:59:59,315 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 03:59:59,315 - root - INFO - Predicted 1 future candles
+2025-03-24 04:00:50,492 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:00:50,498 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:00:54,470 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:00:54,612 - root - INFO - Using CPU for indicator generation
+2025-03-24 04:00:55,155 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:00:55,155 - root - INFO - Training a new random_forest model...
+2025-03-24 04:00:55,155 - root - WARNING - Could not train or load model: cannot access local variable 'model' where it is not associated with a value
+2025-03-24 04:00:55,155 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:00:55,157 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:00:55,158 - root - INFO - Predicted 1 future candles
+2025-03-24 04:00:55,363 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:00:55,363 - root - INFO - Training a new random_forest model...
+2025-03-24 04:00:55,363 - root - WARNING - Could not train or load model: cannot access local variable 'model' where it is not associated with a value
+2025-03-24 04:00:55,363 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:00:55,364 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:00:55,364 - root - INFO - Predicted 1 future candles
+2025-03-24 04:00:55,569 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:00:55,569 - root - INFO - Training a new random_forest model...
+2025-03-24 04:00:55,569 - root - WARNING - Could not train or load model: cannot access local variable 'model' where it is not associated with a value
+2025-03-24 04:00:55,569 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:00:55,570 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:00:55,570 - root - INFO - Predicted 1 future candles
+2025-03-24 04:00:55,775 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:00:55,775 - root - INFO - Training a new random_forest model...
+2025-03-24 04:00:55,775 - root - WARNING - Could not train or load model: cannot access local variable 'model' where it is not associated with a value
+2025-03-24 04:00:55,775 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:00:55,776 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:00:55,776 - root - INFO - Predicted 1 future candles
+2025-03-24 04:00:55,981 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:00:55,981 - root - INFO - Training a new random_forest model...
+2025-03-24 04:00:55,981 - root - WARNING - Could not train or load model: cannot access local variable 'model' where it is not associated with a value
+2025-03-24 04:00:55,981 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:00:55,982 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:00:55,982 - root - INFO - Predicted 1 future candles
+2025-03-24 04:01:31,360 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:01:31,365 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:01:35,203 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:01:35,323 - root - INFO - Using CPU for indicator generation
+2025-03-24 04:01:35,864 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:01:35,864 - root - INFO - Training a new random_forest model...
+2025-03-24 04:01:35,864 - root - INFO - Selecting features for model training...
+2025-03-24 04:01:35,864 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:01:35,864 - root - INFO - Selected 62 features
+2025-03-24 04:01:35,867 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:01:35,867 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:01:35,867 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:01:35,867 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:01:35,867 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:01:35,868 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:01:35,869 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:01:35,869 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:01:35,869 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:01:35,869 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:01:35,869 - root - ERROR - Error training model: Target column 'target' not found in data
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 603, in train_model
+    raise ValueError("Target column 'target' not found in data")
+ValueError: Target column 'target' not found in data
+2025-03-24 04:01:35,871 - root - WARNING - Could not train or load model: Model training failed
+2025-03-24 04:01:35,871 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:01:35,872 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:01:35,873 - root - INFO - Predicted 1 future candles
+2025-03-24 04:01:36,078 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:01:36,078 - root - INFO - Training a new random_forest model...
+2025-03-24 04:01:36,078 - root - INFO - Selecting features for model training...
+2025-03-24 04:01:36,078 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:01:36,078 - root - INFO - Selected 62 features
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:01:36,081 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:01:36,082 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:01:36,082 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:01:36,083 - root - ERROR - Error training model: Target column 'target' not found in data
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 603, in train_model
+    raise ValueError("Target column 'target' not found in data")
+ValueError: Target column 'target' not found in data
+2025-03-24 04:01:36,083 - root - WARNING - Could not train or load model: Model training failed
+2025-03-24 04:01:36,083 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:01:36,084 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:01:36,084 - root - INFO - Predicted 1 future candles
+2025-03-24 04:01:36,289 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:01:36,289 - root - INFO - Training a new random_forest model...
+2025-03-24 04:01:36,289 - root - INFO - Selecting features for model training...
+2025-03-24 04:01:36,289 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:01:36,289 - root - INFO - Selected 62 features
+2025-03-24 04:01:36,292 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:01:36,292 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:01:36,292 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:01:36,292 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:01:36,293 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:01:36,294 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:01:36,294 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:01:36,294 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:01:36,294 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:01:36,294 - root - ERROR - Error training model: Target column 'target' not found in data
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 603, in train_model
+    raise ValueError("Target column 'target' not found in data")
+ValueError: Target column 'target' not found in data
+2025-03-24 04:01:36,294 - root - WARNING - Could not train or load model: Model training failed
+2025-03-24 04:01:36,294 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:01:36,295 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:01:36,295 - root - INFO - Predicted 1 future candles
+2025-03-24 04:01:36,500 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:01:36,500 - root - INFO - Training a new random_forest model...
+2025-03-24 04:01:36,500 - root - INFO - Selecting features for model training...
+2025-03-24 04:01:36,500 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:01:36,500 - root - INFO - Selected 62 features
+2025-03-24 04:01:36,502 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:01:36,503 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:01:36,504 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:01:36,504 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:01:36,505 - root - ERROR - Error training model: Target column 'target' not found in data
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 603, in train_model
+    raise ValueError("Target column 'target' not found in data")
+ValueError: Target column 'target' not found in data
+2025-03-24 04:01:36,505 - root - WARNING - Could not train or load model: Model training failed
+2025-03-24 04:01:36,505 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:01:36,506 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:01:36,506 - root - INFO - Predicted 1 future candles
+2025-03-24 04:01:36,711 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:01:36,711 - root - INFO - Training a new random_forest model...
+2025-03-24 04:01:36,711 - root - INFO - Selecting features for model training...
+2025-03-24 04:01:36,711 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:01:36,711 - root - INFO - Selected 62 features
+2025-03-24 04:01:36,713 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:01:36,714 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:01:36,715 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:01:36,715 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:01:36,716 - root - ERROR - Error training model: Target column 'target' not found in data
+Traceback (most recent call last):
+  File "/Users/ethanwhite/Desktop/Scripts/Machine learning/Trading/ML_Trading_Predictor/simple_ml_model.py", line 603, in train_model
+    raise ValueError("Target column 'target' not found in data")
+ValueError: Target column 'target' not found in data
+2025-03-24 04:01:36,716 - root - WARNING - Could not train or load model: Model training failed
+2025-03-24 04:01:36,716 - root - INFO - Falling back to trend-based prediction
+2025-03-24 04:01:36,717 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:01:36,717 - root - INFO - Predicted 1 future candles
+2025-03-24 04:02:13,626 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:02:13,633 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:02:17,583 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:02:17,712 - root - INFO - Using CPU for indicator generation
+2025-03-24 04:02:18,261 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:02:18,261 - root - INFO - Training a new random_forest model...
+2025-03-24 04:02:18,261 - root - INFO - Selecting features for model training...
+2025-03-24 04:02:18,261 - root - INFO - DataFrame has multi-index columns: False
+2025-03-24 04:02:18,261 - root - INFO - Selected 62 features
+2025-03-24 04:02:18,263 - root - INFO - Added missing standard feature: Close
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: Volume
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: SMA_5
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: SMA_10
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: SMA_20
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: SMA_50
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: RSI_14
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: MACD
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: MACD_Signal
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: MACD_Histogram
+2025-03-24 04:02:18,264 - root - INFO - Added missing standard feature: Volatility_5
+2025-03-24 04:02:18,265 - root - INFO - Added missing standard feature: Volatility_20
+2025-03-24 04:02:18,265 - root - INFO - Added missing standard feature: Momentum_5
+2025-03-24 04:02:18,265 - root - INFO - Added missing standard feature: Momentum_10
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: BB_Upper
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: BB_Lower
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: BB_Width
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: EMA_5
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: EMA_10
+2025-03-24 04:02:18,266 - root - INFO - Added missing standard feature: EMA_20
+2025-03-24 04:02:18,266 - root - INFO - Final feature set: 82 features, 1589 data points
+2025-03-24 04:02:18,267 - root - INFO - Target column 'target' not found. Creating target variable...
+2025-03-24 04:02:18,271 - root - WARNING - Unknown model type: random_forest, defaulting to Random Forest
+2025-03-24 04:02:18,671 - root - INFO - Model training complete. Train accuracy: 1.0000, Test accuracy: 0.5283
+2025-03-24 04:02:18,692 - root - INFO - Model saved to results/random_forest_model.joblib
+2025-03-24 04:02:18,693 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:02:18,694 - root - INFO - Predicted 1 future candles
+2025-03-24 04:02:18,899 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:02:18,899 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:02:18,911 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:02:18,911 - root - INFO - Predicted 1 future candles
+2025-03-24 04:02:19,116 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:02:19,117 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:02:19,128 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:02:19,128 - root - INFO - Predicted 1 future candles
+2025-03-24 04:02:19,333 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:02:19,334 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:02:19,345 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:02:19,345 - root - INFO - Predicted 1 future candles
+2025-03-24 04:02:19,551 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:02:19,551 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:02:19,562 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:02:19,562 - root - INFO - Predicted 1 future candles
+2025-03-24 04:03:14,629 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:03:14,635 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:03:18,355 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:05:13,660 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:05:13,670 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:05:17,637 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:05:17,758 - root - INFO - Using CPU for indicator generation
+2025-03-24 04:05:18,306 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:18,306 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:18,322 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:18,323 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:18,525 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:18,525 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:18,538 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:18,538 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:18,744 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:18,744 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:18,759 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:18,759 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:18,965 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:18,965 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:18,979 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:18,979 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:19,183 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:19,183 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:19,199 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:19,199 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:49,474 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:05:49,480 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:05:53,127 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:05:53,256 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:53,256 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:53,273 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:53,273 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:53,478 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:53,481 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:53,507 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:53,507 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:53,713 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:53,713 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:53,734 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:53,735 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:53,941 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:53,942 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:53,976 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:53,976 - root - INFO - Predicted 1 future candles
+2025-03-24 04:05:54,185 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:05:54,187 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:05:54,216 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:05:54,216 - root - INFO - Predicted 1 future candles
+2025-03-24 04:07:29,723 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:07:29,731 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:07:33,714 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:07:33,848 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:07:33,848 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:07:33,863 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:07:33,863 - root - INFO - Predicted 1 future candles
+2025-03-24 04:07:34,065 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:07:34,065 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:07:34,077 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:07:34,078 - root - INFO - Predicted 1 future candles
+2025-03-24 04:07:34,283 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:07:34,283 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:07:34,294 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:07:34,294 - root - INFO - Predicted 1 future candles
+2025-03-24 04:07:34,496 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:07:34,498 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:07:34,509 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:07:34,509 - root - INFO - Predicted 1 future candles
+2025-03-24 04:07:34,712 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:07:34,712 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:07:34,724 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:07:34,724 - root - INFO - Predicted 1 future candles
+2025-03-24 04:09:08,957 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:09:08,965 - root - WARNING - cuML not found: Using scikit-learn CPU implementations
+2025-03-24 04:09:12,594 - root - WARNING - TensorFlow GPU not available: Using CPU
+2025-03-24 04:09:12,727 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:09:12,727 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:09:12,741 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:09:12,742 - root - INFO - Predicted 1 future candles
+2025-03-24 04:09:12,947 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:09:12,948 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:09:12,974 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:09:12,974 - root - INFO - Predicted 1 future candles
+2025-03-24 04:09:13,179 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:09:13,179 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:09:13,203 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:09:13,204 - root - INFO - Predicted 1 future candles
+2025-03-24 04:09:13,409 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:09:13,410 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:09:13,434 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:09:13,434 - root - INFO - Predicted 1 future candles
+2025-03-24 04:09:13,641 - root - INFO - Last known price: 225.5470976260113
+2025-03-24 04:09:13,641 - root - INFO - Loading existing random_forest model...
+2025-03-24 04:09:13,667 - root - INFO - Trend analysis: BULLISH with 0.51 confidence
+2025-03-24 04:09:13,667 - root - INFO - Predicted 1 future candles
