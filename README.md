@@ -2,7 +2,6 @@
 
 A sophisticated machine learning framework for predicting stock price movements with multiple models and timeframes.
 
-![ML Trading Predictor](https://raw.githubusercontent.com/Fury1234321/Machine-Learning---trading/main/ML_Trading_Predictor/plots/AAPL_15m_forecast_20250324_100344.png)
 
 ## 🚀 Quick Start
 
