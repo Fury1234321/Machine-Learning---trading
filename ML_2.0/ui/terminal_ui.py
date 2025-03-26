@@ -229,6 +229,31 @@ def show_available_models(model_type: str = None) -> pd.DataFrame:
     
     return models_df
 
+def get_training_parameters() -> Dict[str, Any]:
+    """
+    Get training parameters from user
+    
+    Returns:
+        Dictionary with training parameters
+    """
+    # Ask for number of epochs
+    questions = [
+        inquirer.Text('epochs',
+                     message="Enter number of epochs (default is in config)",
+                     default="",
+                     validate=lambda _, x: x == "" or x.isdigit()),
+    ]
+    
+    answers = inquirer.prompt(questions)
+    
+    params = {}
+    
+    # Convert epochs to int if provided
+    if answers['epochs'] and answers['epochs'].isdigit():
+        params['epochs'] = int(answers['epochs'])
+    
+    return params
+
 def train_model(model_type: str, data_file: str) -> Dict[str, Any]:
     """
     Train a new model
@@ -244,6 +269,9 @@ def train_model(model_type: str, data_file: str) -> Dict[str, Any]:
     
     print_header(f"Training {model_type.replace('_', ' ').title()} Model")
     print_info(f"Data file: {os.path.basename(data_file)}")
+    
+    # Get training parameters
+    params = get_training_parameters()
     
     # Load and prepare data
     print_info("Loading and preparing data...")
@@ -261,6 +289,11 @@ def train_model(model_type: str, data_file: str) -> Dict[str, Any]:
         print_info("Building neural network model...")
         model.build_model()
         
+        # Update config with user parameters
+        if 'epochs' in params:
+            model.config['epochs'] = params['epochs']
+            print_info(f"Using {params['epochs']} epochs for training")
+        
         # Train with progress reporting
         print_info("Training neural network model...")
         result = model.train(data_dict, scalers_dict)
@@ -270,6 +303,11 @@ def train_model(model_type: str, data_file: str) -> Dict[str, Any]:
         print_info("Building gradient boosting model...")
         model.build_model()
         
+        # Update config with user parameters
+        if 'epochs' in params:
+            model.config['n_estimators'] = params['epochs']
+            print_info(f"Using {params['epochs']} estimators for training")
+        
         # Train model
         print_info("Training gradient boosting model...")
         result = model.train(data_dict, scalers_dict)
@@ -278,6 +316,12 @@ def train_model(model_type: str, data_file: str) -> Dict[str, Any]:
         model = DecisionTreeModel()
         print_info("Building decision tree model...")
         model.build_model()
+        
+        # Decision trees don't have epochs, but we can adjust max_depth
+        if 'epochs' in params:
+            # For tree models, we'll use epochs as a multiplier for max_depth
+            model.config['max_depth'] = min(100, params['epochs'] // 10)
+            print_info(f"Using max_depth of {model.config['max_depth']} for training")
         
         # Train model
         print_info("Training decision tree model...")

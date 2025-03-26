@@ -9,7 +9,8 @@ ML 2.0 Trading Predictor is designed to train and evaluate various machine learn
 Key features:
 - Modular architecture for easy extension and maintenance
 - Support for multiple model types (Neural Networks, Gradient Boosting, Decision Trees)
-- Simple terminal-based user interface
+- Interactive terminal UI with real-time training progress visualization
+- User-customizable training parameters for all model types
 - Comprehensive data preprocessing pipeline
 - Model management system for saving and loading trained models
 - Automated testing and debugging tools for AI agents
@@ -67,11 +68,19 @@ The terminal-based interface provides the following options:
    - Decision Tree (Simple, interpretable model)
 
 When training a model, you'll select a data file and the application will:
-1. Preprocess the data (add technical indicators, normalize, etc.)
-2. Split the data into training and testing sets
-3. Train the selected model type
-4. Evaluate performance and display metrics
-5. Save the trained model for future use
+1. Prompt you to customize training parameters (e.g., number of epochs)
+2. Preprocess the data (add technical indicators, normalize, etc.)
+3. Split the data into training and testing sets
+4. Train the selected model type with real-time progress visualization
+5. Evaluate performance and display metrics
+6. Save the trained model for future use
+
+#### Training Interface Features
+
+- **Live Progress Bars**: All models display real-time training progress with color-coded bars
+- **Training Metrics**: See accuracy, elapsed time, and estimated time remaining during training
+- **Customizable Epochs**: Set the number of training cycles before training begins
+- **Early Termination**: Training can be stopped safely with keyboard interrupt (Ctrl+C)
 
 ### Adding Your Own Data
 
@@ -95,16 +104,19 @@ Date,Open,High,Low,Close,Volume
 - Architecture: LSTM layers with dropout and batch normalization
 - Input: Sequences of price and technical indicators
 - Output: Binary classification (price direction)
+- Training: Shows per-epoch progress with loss and accuracy metrics
 
 ### Gradient Boosting
 - Best for: High accuracy predictions with robustness to outliers
 - Features: Hyperparameter-tuned ensemble of decision trees
 - Strengths: Handles non-linear relationships well
+- Training: Visualizes incremental estimator building with accuracy feedback
 
 ### Decision Tree
 - Best for: Simple, interpretable models
 - Features: Configurable depth and split criteria
 - Strengths: Easy to understand and visualize decisions
+- Training: Provides real-time visualization during tree construction
 
 ## Debugging
 

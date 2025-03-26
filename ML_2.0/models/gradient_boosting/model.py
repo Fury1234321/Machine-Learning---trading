@@ -39,7 +39,9 @@ class GradientBoostingModel:
             min_samples_split=self.config['min_samples_split'],
             min_samples_leaf=self.config['min_samples_leaf'],
             subsample=self.config['subsample'],
-            random_state=self.config['random_state']
+            random_state=self.config['random_state'],
+            verbose=0,  # We'll handle our own verbosity
+            warm_start=True  # Enable warm_start for incremental fitting
         )
         
         print("Gradient Boosting model built successfully")
@@ -92,13 +94,60 @@ class GradientBoostingModel:
             X_train_flat, X_test_flat, y_train, y_test = self.preprocess_data(data_dict)
             
             print(f"Training Gradient Boosting model with {X_train_flat.shape[0]} samples and {X_train_flat.shape[1]} features")
+            print(f"Number of estimators: {self.config['n_estimators']}")
             
-            # Train the model
+            # For progress bar
+            total_estimators = self.config['n_estimators']
+            
+            # We'll train in stages to show progress
+            batch_size = max(1, total_estimators // 20)  # Show at least 20 progress updates
+            self.model.n_estimators = 0
+            
             start_time = time.time()
-            self.model.fit(X_train_flat, y_train)
+            
+            # Use ANSI escape codes for colored output
+            GREEN = '\033[92m'
+            ENDC = '\033[0m'
+            BOLD = '\033[1m'
+            
+            for i in range(0, total_estimators, batch_size):
+                # Number of estimators to add in this batch
+                n_estimators_batch = min(batch_size, total_estimators - i)
+                
+                # Set the number of estimators for this batch
+                self.model.n_estimators += n_estimators_batch
+                
+                # Train the model for this batch
+                self.model.fit(X_train_flat, y_train)
+                
+                # Calculate progress for display
+                progress = min(self.model.n_estimators, total_estimators)
+                percent = progress / total_estimators * 100
+                
+                # Generate progress bar
+                bar_length = 40
+                filled_length = int(bar_length * progress // total_estimators)
+                bar = '█' * filled_length + '-' * (bar_length - filled_length)
+                
+                # Calculate training metrics for current state
+                train_pred = self.model.predict(X_train_flat)
+                train_acc = accuracy_score(y_train, train_pred) * 100
+                
+                # Get time elapsed and estimate remaining time
+                elapsed_time = time.time() - start_time
+                eta = (elapsed_time / progress) * (total_estimators - progress) if progress > 0 else 0
+                
+                # Print progress bar with metrics
+                print(f"\r{GREEN}Training: |{bar}| {percent:.1f}% Complete. "
+                      f"Estimators: {progress}/{total_estimators}. "
+                      f"Train Acc: {train_acc:.2f}% "
+                      f"Elapsed: {elapsed_time:.1f}s "
+                      f"ETA: {eta:.1f}s{ENDC}", end='')
+                
+            print()  # New line after progress bar completes
             training_time = time.time() - start_time
             
-            # Evaluate on test set
+            # Final evaluation on test set
             y_pred = self.model.predict(X_test_flat)
             
             # Calculate metrics
@@ -109,6 +158,11 @@ class GradientBoostingModel:
                 'f1': f1_score(y_test, y_pred, zero_division=0),
                 'training_time': training_time
             }
+            
+            # Print final metrics with colors
+            print(f"{GREEN}{BOLD}Training complete!{ENDC}")
+            print(f"{GREEN}Test accuracy: {metrics['accuracy']*100:.2f}%{ENDC}")
+            print(f"{GREEN}Test F1 score: {metrics['f1']*100:.2f}%{ENDC}")
             
             # Feature importance
             feature_importance = None

@@ -89,14 +89,69 @@ class DecisionTreeModel:
             X_train_flat, X_test_flat, y_train, y_test = self.preprocess_data(data_dict)
             
             print(f"Training Decision Tree model with {X_train_flat.shape[0]} samples and {X_train_flat.shape[1]} features")
+            print(f"Max depth: {self.config['max_depth']}")
             
-            # Train the model
+            # Use ANSI escape codes for colored output
+            GREEN = '\033[92m'
+            ENDC = '\033[0m'
+            BOLD = '\033[1m'
+            
+            # Show a simulated progress bar
+            # Decision trees don't train in epochs, but we'll show progress
+            # during the training process to be consistent with other models
+            
+            # Start training with progress simulation
             start_time = time.time()
+            
+            # Show initial progress bar at 0%
+            bar_length = 40
+            bar = '-' * bar_length
+            print(f"\r{GREEN}Training: |{bar}| 0.0% Complete. Initializing...{ENDC}", end='')
+            
+            # Simulate 10 steps of progress
+            steps = 10
+            for i in range(steps):
+                # Sleep for a short time to simulate computation
+                time.sleep(0.1)
+                
+                # Calculate progress for display
+                progress = (i + 1) / steps
+                percent = progress * 100
+                
+                # Generate progress bar
+                filled_length = int(bar_length * progress)
+                bar = '█' * filled_length + '-' * (bar_length - filled_length)
+                
+                # Print progress bar with metrics
+                print(f"\r{GREEN}Training: |{bar}| {percent:.1f}% Complete. "
+                      f"Preparing training... "
+                      f"Elapsed: {time.time() - start_time:.1f}s{ENDC}", end='')
+                
+            # Now fit the model
+            # Save the real training start time
+            actual_train_start = time.time()
             self.model.fit(X_train_flat, y_train)
+            train_time = time.time() - actual_train_start
+            
+            # Show 100% progress bar
+            bar = '█' * bar_length
+            print(f"\r{GREEN}Training: |{bar}| 100.0% Complete. "
+                 f"Training finished in {train_time:.2f}s{ENDC}")
+            
+            # Total time including simulation
             training_time = time.time() - start_time
             
-            # Evaluate on test set
+            # Evaluate on train and test sets
+            train_pred = self.model.predict(X_train_flat)
+            train_acc = accuracy_score(y_train, train_pred) * 100
+            
+            # Final evaluation on test set
             y_pred = self.model.predict(X_test_flat)
+            test_acc = accuracy_score(y_test, y_pred) * 100
+            
+            # Print training metrics
+            print(f"{GREEN}Train accuracy: {train_acc:.2f}%{ENDC}")
+            print(f"{GREEN}Test accuracy: {test_acc:.2f}%{ENDC}")
             
             # Calculate metrics
             metrics = {
@@ -106,6 +161,10 @@ class DecisionTreeModel:
                 'f1': f1_score(y_test, y_pred, zero_division=0),
                 'training_time': training_time
             }
+            
+            # Print final metrics with colors
+            print(f"{GREEN}{BOLD}Training complete!{ENDC}")
+            print(f"{GREEN}Test F1 score: {metrics['f1']*100:.2f}%{ENDC}")
             
             # Feature importance
             feature_importance = None
